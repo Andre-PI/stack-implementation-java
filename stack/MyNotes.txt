@@ -1,0 +1,8 @@
+
+All the primitive datas are a Object class data, that's why it's better to use this instead any other specific primitive data.
+
+"Node" is a location in the memory
+
+this.top refers to the last data added, stacks are data structures that the last-in first-out, so this.top is what we need to use to get to point to the next node.
+
+In stacks pop() don't have any params because we just "remove" the data in the top and can't choose what data is removed. 
